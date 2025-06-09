@@ -41,9 +41,10 @@ Follow these steps to get the project up and running on your local machine.
     Add the following lines to the `.env` file, replacing `YOUR_MONGODB_CONNECTION_STRING` with your actual MongoDB URI (e.g., `mongodb://localhost:27017/healthcare_cms` for local, or your Atlas URI). Replace `YOUR_JWT_SECRET_KEY` with a strong, random string.
 
     ```env
-    MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
-    JWT_SECRET=YOUR_JWT_SECRET_KEY
-    PORT=8001
+    MONGO_URI=mongodb+srv://healthcareAdmin:resham29122002@cluster0.qwnt3gw.mongodb.net/?retryWrites=true&w=majority&appName=cluster0s
+JWT_SECRET=43710911e4e8f28aa98708c16421eae578a8986f348b41d757988dd9119d1367
+PORT=8001
+    
     ```
 
 * **Start the Backend Server:**
