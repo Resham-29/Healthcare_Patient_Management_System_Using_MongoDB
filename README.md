@@ -30,6 +30,30 @@ Follow these steps to get the project up and running on your local machine.
 * [MongoDB](https://www.mongodb.com/try/download/community) (Community Server)
 * Git
 
+
+* **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+* **Configure Environment Variables:**
+    Create a file named `.env` in the root of your project folder (the same folder as `server.js`).
+    Add the following lines to the `.env` file, replacing `YOUR_MONGODB_CONNECTION_STRING` with your actual MongoDB URI (e.g., `mongodb://localhost:27017/healthcare_cms` for local, or your Atlas URI). Replace `YOUR_JWT_SECRET_KEY` with a strong, random string.
+
+    ```env
+    MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+    JWT_SECRET=YOUR_JWT_SECRET_KEY
+    PORT=8001
+    ```
+
+* **Start the Backend Server:**
+    ```bash
+    node server.js
+    ```
+    The server should start on `http://localhost:8001` (or the port you specified). You should see "MongoDB connected successfully" and "Server running on port 8001".
+
+
+
 ### 1. Clone the Repository
 
 First, clone this GitHub repository to your local machine:
