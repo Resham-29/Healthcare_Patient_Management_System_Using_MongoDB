@@ -54,7 +54,7 @@ Follow these steps to get the project up and running on your local machine.
     node server.js
     ```
     The server should start on `http://localhost:8001/` (or the port you specified). You should see "MongoDB connected successfully" and "Server running on port 8001".
-
+   now you can open `http://localhost:8001/` on any browser
 
 
 ### 1. Clone the Repository
