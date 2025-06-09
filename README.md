@@ -42,10 +42,12 @@ Follow these steps to get the project up and running on your local machine.
 
     ```env
     MONGO_URI=mongodb+srv://healthcareAdmin:resham29122002@cluster0.qwnt3gw.mongodb.net/?retryWrites=true&w=majority&appName=cluster0s
-JWT_SECRET=43710911e4e8f28aa98708c16421eae578a8986f348b41d757988dd9119d1367
-PORT=8001
-    
+    JWT_SECRET=43710911e4e8f28aa98708c16421eae578a8986f348b41d757988dd9119d1367
+    PORT=8001
     ```
+
+
+
 
 * **Start the Backend Server:**
     ```bash
