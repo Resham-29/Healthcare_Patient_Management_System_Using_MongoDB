@@ -35,5 +35,5 @@ Follow these steps to get the project up and running on your local machine.
 First, clone this GitHub repository to your local machine:
 
 ```bash
-git clone [https://github.com/Resham-29/Healthcare_Patient_Management_System_Using_MongoDB.git](https://github.com/Resham-29/Healthcare_Patient_Management_System_Using_MongoDB.git)
+git clone https://github.com/Resham-29/Healthcare_Patient_Management_System_Using_MongoDB.git
 cd Healthcare_Patient_Management_System_Using_MongoDB
